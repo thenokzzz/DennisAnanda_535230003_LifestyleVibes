@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+  
+body{
+    background-color: #FDFEFE;
+    margin: 0;
+    height: 1500px;
+}
+
+main{
+    margin-top: 50px;
+}
+
+.navbar{
+    background-color: #2C3E50;
+}
+
+.navbar-brand{
+    font-family: "Satisfy", cursive;
+    font-size: 30px;
+}
+
+.navbar-nav{
+    font-size: 18px;
+}
+
+.btn{
+    background-color: #EAF2F8;
+    color: black;
+}
+
+.carousel-item {
+    transition: transform s ease-in-out !important;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.social-icon img {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.social-icon img:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    .card-content{
+        flex-direction: column;
+    }
+}
